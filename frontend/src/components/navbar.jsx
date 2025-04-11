@@ -1,7 +1,7 @@
-// Navbar.jsx
+
+import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import React from 'react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,23 +19,23 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link 
-              to="/" 
-              className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors"
-            >
+            <Link to="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
               Home
             </Link>
-            <Link
-              to="/events"
-              className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors"
-            >
+            <Link to="/events" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
               Events
             </Link>
-            <Link
-              to="/recommendations"
-              className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors"
-            >
+            <Link to="/recommendations" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
               My Spots
+            </Link>
+            <Link to="/skymap" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
+              Sky Map
+            </Link>
+            <Link to="/resources" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
+              Resources
+            </Link>
+            <Link to="/dashboard" className="text-gray-300 hover:text-white px-3 py-2 rounded-md transition-colors">
+              Dashboard
             </Link>
           </div>
 
@@ -59,26 +59,23 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-2">
-            <Link
-              to="/"
-              className="block text-gray-300 hover:text-white px-3 py-2 rounded-md"
-              onClick={() => setIsOpen(false)}
-            >
+            <Link to="/" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
               Home
             </Link>
-            <Link
-              to="/events"
-              className="block text-gray-300 hover:text-white px-3 py-2 rounded-md"
-              onClick={() => setIsOpen(false)}
-            >
+            <Link to="/events" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
               Events
             </Link>
-            <Link
-              to="/recommendations"
-              className="block text-gray-300 hover:text-white px-3 py-2 rounded-md"
-              onClick={() => setIsOpen(false)}
-            >
+            <Link to="/recommendations" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
               My Spots
+            </Link>
+            <Link to="/skymap" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
+              Sky Map
+            </Link>
+            <Link to="/resources" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
+              Resources
+            </Link>
+            <Link to="/dashboard" className="block text-gray-300 hover:text-white px-3 py-2 rounded-md" onClick={() => setIsOpen(false)}>
+              Dashboard
             </Link>
           </div>
         )}

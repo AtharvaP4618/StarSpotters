@@ -1,0 +1,93 @@
+rpose and main features.
+
+2. Events Page (Necessary)
+This page is absolutely necessary given your Event Aggregation module. The search results show multiple upcoming astronomical events (Lunar Occultations on April 12 and 16, The Whirlpool Galaxy visibility on April 14, and Mercury's highest altitude on April 19). Users need a centralized catalog of events with:
+
+Event cards with dates, times, and descriptions
+
+Filtering options (by event type, visibility from user's location, etc.)
+
+Event details with viewing tips
+
+3. Recommendations Page (Necessary)
+This page is the heart of your app's unique value proposition, combining:
+
+Light pollution data
+
+Weather conditions
+
+Moon phase information
+
+User's location preferences
+
+The "Stargazing Score" you mentioned would be prominently featured here, showing users personalized recommendations for when and where to observe specific celestial events.
+
+Additional Essential Pages
+4. Sky Map Page
+A dynamic, interactive map displaying:
+
+Light pollution levels (Bortle scale visualization)
+
+Dark sky locations within user's travel radius
+
+Weather overlay showing cloud cover
+
+Elevation data
+
+5. User Dashboard Page
+Once you implement user accounts, this becomes essential for:
+
+Saved/bookmarked events
+
+Personal observation history
+
+Notification preferences
+
+Location settings
+
+6. Educational Resources Page
+Support users with:
+
+Equipment guides
+
+Astrophotography tips
+
+Constellation identification
+
+Auto-generated explanations of astronomical phenomena
+
+Priority and Implementation Order
+First Phase: Home, Events, and Recommendations (your current focus)
+
+Second Phase: Sky Map and User Dashboard
+
+Third Phase: Educational Resources
+
+The Events and Recommendations pages are both necessary because they serve different but complementary purposes - Events shows what's happening in the sky, while Recommendations shows the best times and places to view those events based on personalized factors.
+
+
+Ideas to add (later):
+✨ Live Astro Events Timeline: A horizontal scroll section with space/rocket icons and event dates
+
+🌌 Daily Space Fact / NASA Picture of the Day
+
+🔭 3D Solar System / Orbit Viewer (later via WebGL / Three.js)
+
+🛰️ Rocket Launch Tracker (upcoming events with countdown)
+
+📊 Stat Cards: Number of events, satellites, planets visible tonight
+
+
+You’re building a space event tracking platform — think cosmic meets clean UI.
+
+So look for components like:
+
+Feature Idea	Search Term Suggestions
+🌍 Live Events Timeline	horizontal timeline UI, event timeline
+🚀 Launch Countdowns	countdown card UI, launch tracker UI
+📊 Stats Overview	analytics dashboard, stat cards, metrics
+🪐 Explore Section	discovery section, categories UI, explore cards
+📅 Event Filters	calendar filter UI, event list, search + filter
+🌓 Dark Themed Landing	space landing page, cosmos hero section
+📸 NASA Daily Image	photo showcase UI, gallery UI
+🔎 Search Bar	floating search bar, smart search UI

@@ -2,7 +2,7 @@ Absolutely — combining **#1 Astronomical Event Tracker** and **#4 Light Pollut
 
 ---
 
-## 🌌✨ **AstroSpotter: Personalized Stargazing & Celestial Event Planner**
+## 🌌✨ **StarSpotter: Personalized Stargazing & Celestial Event Planner**
 
 ### 🔍 **Problem Statement:**
 Most astronomy enthusiasts and photographers struggle to find the *right place* and *right time* to observe celestial events due to light pollution, bad weather, or lack of awareness. There's no unified platform that gives **personalized stargazing opportunities** based on location, event rarity, sky quality, and visibility conditions.
