@@ -36,15 +36,15 @@ const Home = () => {
         <h2 className="text-center text-4xl font-bold mb-12">Why Choose StarSpotters?</h2>
 
         {/* Feature Cards */}
-        <div className="max-w-4xl mx-auto space-y-12 px-6">
-          {/* Feature 1 */}
-          <div className="group relative bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl hover:bg-gray-700 transition-all duration-300">
+        <div className="max-w-7xl mx-auto space-y-12 px-6">
+          {/* Feature 1 (Left-aligned) */}
+          <div className="group relative flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
             <img
               src="/images/event_tracking.jpg"
               alt="Event Tracking"
-              className="w-full h-[300px] object-cover group-hover:scale-105 transition-transform duration-300"
+              className="w-full md:w-[50%] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-700 group-hover:scale-105"
             />
-            <div className="p-8">
+            <div className="md:w-[50%] p-8 bg-slate-800/50 rounded-lg hover:bg-slate-800/70 transition-all border border-slate-700">
               <h3 className="text-xl font-semibold text-white">Real-Time Event Tracking</h3>
               <p className="text-gray-300 mt-2">
                 Stay updated on meteor showers, eclipses, planetary alignments, and more with real-time event aggregation.
@@ -52,14 +52,14 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Feature 2 */}
-          <div className="group relative bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl hover:bg-gray-700 transition-all duration-300">
+          {/* Feature 2 (Right-aligned) */}
+          <div className="group relative flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:space-x-reverse md:space-x-8">
             <img
               src="/images/light_pollution_map.jpg"
               alt="Light Pollution Mapping"
-              className="w-full h-[300px] object-cover group-hover:scale-105 transition-transform duration-300"
+              className="w-full md:w-[50%] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-700 group-hover:scale-105"
             />
-            <div className="p-8">
+            <div className="md:w-[50%] p-8 bg-slate-800/50 rounded-lg hover:bg-slate-800/70 transition-all border border-slate-700">
               <h3 className="text-xl font-semibold text-white">Light Pollution Mapping</h3>
               <p className="text-gray-300 mt-2">
                 Find the best dark-sky locations using light pollution data combined with elevation and weather information.
@@ -67,14 +67,14 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Feature 3 */}
-          <div className="group relative bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl hover:bg-gray-700 transition-all duration-300">
+          {/* Feature 3 (Left-aligned) */}
+          <div className="group relative flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
             <img
               src="/images/stargazing.jpg"
               alt="Stargazing Score"
-              className="w-full h-[300px] object-cover group-hover:scale-105 transition-transform duration-300"
+              className="w-full md:w-[50%] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-700 group-hover:scale-105"
             />
-            <div className="p-8">
+            <div className="md:w-[50%] p-8 bg-slate-800/50 rounded-lg hover:bg-slate-800/70 transition-all border border-slate-700">
               <h3 className="text-xl font-semibold text-white">Personalized Stargazing Recommendations</h3>
               <p className="text-gray-300 mt-2">
                 Get a customized “Stargazing Score” based on sky quality, weather conditions, and moon phases.
@@ -83,11 +83,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 py-4 text-center text-gray-400">
-        &copy; 2025 StarSpotters. All rights reserved.
-      </footer>
     </div>
   );
 };
