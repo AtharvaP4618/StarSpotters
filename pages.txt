@@ -91,3 +91,14 @@ Feature Idea	Search Term Suggestions
 🌓 Dark Themed Landing	space landing page, cosmos hero section
 📸 NASA Daily Image	photo showcase UI, gallery UI
 🔎 Search Bar	floating search bar, smart search UI
+
+
+
+🌐 Mapping Pages → Backend Connections
+Page	Needs Backend?	What It Fetches	Source / API / Scraper
+Home	❌ (mostly static)	Optional: greeting, daily event highlight	From events endpoint (optional mini highlight)
+Events	✅ YES	List of upcoming astronomical events (name, date, visibility, location)	✅ Scraped from in-the-sky.org or NASA
+Recommendations	✅ YES	Recommendations based on location or date	Based on event data + light pollution score
+SkyMap	✅ Optional	Embed skymap or fetch local sky coordinates data	In-the-sky.org sky chart OR Planetarium API
+EduResources	❌ or 🔄 Optional	Static links/resources, maybe pulled from a markdown/JSON	Static frontend OR served from backend folder
+Dashboard	✅ YES	User dashboard with: saved events, stargazing conditions, recent recs	Aggregated data from events, recommendations, and user prefs (if any)
