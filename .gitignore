@@ -22,3 +22,11 @@ yarn-error.log*
 
 # optional
 coverage/
+
+# ignore specific files in frontend
+frontend/pages.txt
+frontend/problem_definition.txt
+frontend/roadmap.txt
+
+# ignore specific file in backend
+backend/notes.txt

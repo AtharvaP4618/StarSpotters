@@ -1,0 +1,724 @@
+[
+  {
+    "CommonName": "Sun",
+    "RA_deg": 286.13,
+    "Dec_deg": 63.87,
+    "Vmag": -26.74,
+    "SpType": "G2V",
+    "types": [
+      "Sun",
+      "SSO",
+      "planet",
+      "star"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Sun"
+    ],
+    "short_name": "Sun",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Mercury",
+    "RA_deg": 252.25,
+    "Dec_deg": -6.15,
+    "Vmag": -0.42,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Mercury"
+    ],
+    "short_name": "Mercury",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Venus",
+    "RA_deg": 272.95,
+    "Dec_deg": 19.24,
+    "Vmag": -4.4,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Venus"
+    ],
+    "short_name": "Venus",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Earth",
+    "RA_deg": 281.01,
+    "Dec_deg": -6.74,
+    "Vmag": -3.99,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Earth"
+    ],
+    "short_name": "Earth",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Mars",
+    "RA_deg": 77.47,
+    "Dec_deg": 23.96,
+    "Vmag": -1.52,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Mars"
+    ],
+    "short_name": "Mars",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Jupiter",
+    "RA_deg": 268.06,
+    "Dec_deg": -23.94,
+    "Vmag": -2.94,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Jupiter"
+    ],
+    "short_name": "Jupiter",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Saturn",
+    "RA_deg": 268.56,
+    "Dec_deg": -22.2,
+    "Vmag": -0.18,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Saturn"
+    ],
+    "short_name": "Saturn",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Uranus",
+    "RA_deg": 261.58,
+    "Dec_deg": -14.05,
+    "Vmag": 5.68,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Uranus"
+    ],
+    "short_name": "Uranus",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Neptune",
+    "RA_deg": 273.05,
+    "Dec_deg": -22.67,
+    "Vmag": 7.78,
+    "SpType": "Planet",
+    "types": [
+      "Pla",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Neptune"
+    ],
+    "short_name": "Neptune",
+    "interest": 4.95
+  },
+  {
+    "CommonName": "Pluto",
+    "RA_deg": 312.05,
+    "Dec_deg": -13.55,
+    "Vmag": 13.65,
+    "SpType": "Dwarf Planet",
+    "types": [
+      "MPl",
+      "DOA",
+      "SSO",
+      "planet"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Pluto",
+      "MPC (134340) Pluto"
+    ],
+    "short_name": "Pluto",
+    "interest": 2.6
+  },
+  {
+    "CommonName": "Moon",
+    "RA_deg": 232.94,
+    "Dec_deg": 6.68,
+    "Vmag": -12.74,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Moon"
+    ],
+    "short_name": "Moon",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Io",
+    "RA_deg": 268.39,
+    "Dec_deg": 7.15,
+    "Vmag": 5.27,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Io"
+    ],
+    "short_name": "Io",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Europa",
+    "RA_deg": 268.58,
+    "Dec_deg": 8.36,
+    "Vmag": 5.03,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Europa"
+    ],
+    "short_name": "Europa",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Ganymede",
+    "RA_deg": 268.22,
+    "Dec_deg": 6.86,
+    "Vmag": 4.62,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Ganymede"
+    ],
+    "short_name": "Ganymede",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Callisto",
+    "RA_deg": 268.91,
+    "Dec_deg": 6.05,
+    "Vmag": 5.67,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Callisto"
+    ],
+    "short_name": "Callisto",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Titan",
+    "RA_deg": 266.32,
+    "Dec_deg": 8.23,
+    "Vmag": 8.4,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Titan"
+    ],
+    "short_name": "Titan",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "Enceladus",
+    "RA_deg": 268.15,
+    "Dec_deg": 6.67,
+    "Vmag": 9.35,
+    "SpType": "Moon",
+    "types": [
+      "Moo",
+      "moon",
+      "SSO"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Enceladus"
+    ],
+    "short_name": "Enceladus",
+    "interest": 4.01
+  },
+  {
+    "CommonName": "ISS",
+    "RA_deg": 0,
+    "Dec_deg": 0,
+    "Vmag": -3.0,
+    "SpType": "Satellite",
+    "types": [
+      "Asa",
+      "satellite"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME International Space Station",
+      "NAME ISS",
+      "NAME ISS (ZARYA)",
+      "NORAD 25544",
+      "COSPAR 1998-067A"
+    ],
+    "short_name": "International Space Station",
+    "interest": 3.1
+  },
+  {
+    "CommonName": "Hubble Space Telescope",
+    "RA_deg": 0,
+    "Dec_deg": 0,
+    "Vmag": 16.0,
+    "SpType": "Satellite",
+    "types": [
+      "Asa",
+      "satellite"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Hubble Space Telescope",
+      "NAME HST",
+      "NORAD 20580",
+      "COSPAR 1990-037B"
+    ],
+    "short_name": "Hubble Space Telescope",
+    "interest": 3.1
+  },
+  {
+    "CommonName": "Cancer",
+    "RA_deg": 128.6,
+    "Dec_deg": 20.6,
+    "Vmag": 5.91,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Cancer",
+      "NAME Cnc"
+    ],
+    "short_name": "Cancer",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Leo",
+    "RA_deg": 152.11,
+    "Dec_deg": 15.49,
+    "Vmag": 4.31,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Leo",
+      "NAME Leo"
+    ],
+    "short_name": "Leo",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Orion",
+    "RA_deg": 83.82,
+    "Dec_deg": -5.91,
+    "Vmag": 1.75,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Orion",
+      "NAME Ori"
+    ],
+    "short_name": "Orion",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Scorpius",
+    "RA_deg": 244.17,
+    "Dec_deg": -26.27,
+    "Vmag": 2.57,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Scorpius",
+      "NAME Sco"
+    ],
+    "short_name": "Scorpius",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Taurus",
+    "RA_deg": 68.97,
+    "Dec_deg": 16.54,
+    "Vmag": 1.16,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Taurus",
+      "NAME Tau"
+    ],
+    "short_name": "Taurus",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Sagittarius",
+    "RA_deg": 267.37,
+    "Dec_deg": -35.4,
+    "Vmag": 1.79,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Sagittarius",
+      "NAME Sgr"
+    ],
+    "short_name": "Sagittarius",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Andromeda",
+    "RA_deg": 10.68,
+    "Dec_deg": 41.28,
+    "Vmag": 4.19,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Andromeda",
+      "NAME And"
+    ],
+    "short_name": "Andromeda",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Pleiades",
+    "RA_deg": 56.75,
+    "Dec_deg": 24.12,
+    "Vmag": 1.55,
+    "SpType": "Cluster",
+    "types": [
+      "cluster",
+      "dso",
+      "mul",
+      "constellation",
+      "OpC",
+      "Cl*"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": 19.71,
+      "Dec": -44.82
+    },
+    "Parallax": null,
+    "RadialVelocity": 3.503,
+    "Aliases": [
+      "NAME Pleiades",
+      "NAME Seven Sisters",
+      "NAME Subaru",
+      "M 45",
+      "Cl Melotte 22",
+      "OCl 421.0",
+      "H 0346+24"
+    ],
+    "short_name": "Pleiades",
+    "interest": 4.6335999999999995
+  },
+  {
+    "CommonName": "Aquila",
+    "RA_deg": 292.73,
+    "Dec_deg": -5.23,
+    "Vmag": 2.88,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Aquila",
+      "NAME Aql"
+    ],
+    "short_name": "Aquila",
+    "interest": 3.9
+  },
+  {
+    "CommonName": "Virgo",
+    "RA_deg": 186.7,
+    "Dec_deg": -9.2,
+    "Vmag": 1.04,
+    "SpType": "Constellation",
+    "types": [
+      "constellation",
+      "Con",
+      "Cul"
+    ],
+    "source": "Manual",
+    "ProperMotion": {
+      "RA": null,
+      "Dec": null
+    },
+    "Parallax": null,
+    "RadialVelocity": null,
+    "Aliases": [
+      "NAME Virgo",
+      "NAME Vir"
+    ],
+    "short_name": "Virgo",
+    "interest": 3.9
+  }
+]
